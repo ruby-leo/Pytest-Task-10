@@ -43,7 +43,7 @@ def test_negative_test(driver):
 
     # Login to Dashboard with invalid password
     driver.find_element(By.ID, "user-name").send_keys("standard_user")
-    driver.find_element(By.ID, "password").send_keys("wrong_password")
+    driver.find_element(By.ID, "password").send_keys("wrogit push -u origin mainng_password")
     driver.find_element(By.ID, "login-button").click()
 
     # assert that error message is displayed
